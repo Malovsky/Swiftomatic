@@ -10,6 +10,7 @@ import Foundation
 struct Framework: Identifiable {
     
     var id = UUID()
+    var name: String
     var image: String
     var descritpion: String
     var status: ReadOrNot

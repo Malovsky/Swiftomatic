@@ -8,13 +8,18 @@
 import SwiftUI
 
 struct FrameworkDetail: View {
+    
+    var framework: Framework
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            
+        }
     }
 }
 
 struct FrameworkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        FrameworkDetail()
+        FrameworkDetail(framework: Framework(image: "swiftui", descritpion: "Description SwiftUI", status: .read) )
     }
 }

@@ -7,12 +7,12 @@
 
 import Foundation
 
-var swiftUI = Framework(image: "swiftui", descritpion: "Description SwiftUI", status: .read)
-var uiKit = Framework(image: "uikit", descritpion: "Description UIKit", status: .notRead)
-var mapKit = Framework(image: "mapkit", descritpion: "Description mapKit", status: .inProgress)
-var coreData = Framework(image: "coredata", descritpion: "Description coredata", status: .inProgress)
-var cloudKit = Framework(image: "cloudkit", descritpion: "Description cloudkit", status: .notRead)
-var arKit = Framework(image: "arkit", descritpion: "Description arkit", status: .inProgress)
-var siri = Framework(image: "siri", descritpion: "Description siri", status: .notRead)
+var swiftUI = Framework(name: "SwiftUI", image: "swiftui", descritpion: "Description SwiftUI", status: .read)
+var uiKit = Framework(name: "UIKit", image: "uikit", descritpion: "Description UIKit", status: .notRead)
+var mapKit = Framework(name: "MapKit", image: "mapkit", descritpion: "Description mapKit", status: .inProgress)
+var coreData = Framework(name: "Core Data", image: "coredata", descritpion: "Description coredata", status: .inProgress)
+var cloudKit = Framework(name: "Cloud Kit", image: "cloudkit", descritpion: "Description cloudkit", status: .notRead)
+var arKit = Framework(name: "ARKit", image: "arkit", descritpion: "Description arkit", status: .inProgress)
+var siri = Framework(name: "Siri", image: "siri", descritpion: "Description siri", status: .notRead)
 
 var myFrameworks = [swiftUI, uiKit, mapKit, coreData, cloudKit, arKit, siri]
