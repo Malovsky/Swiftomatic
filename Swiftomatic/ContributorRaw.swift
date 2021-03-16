@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContributoRaw: View {
+struct ContributorRaw: View {
     let item : Contributor
     var body: some View {
         HStack(alignment : .center) {
@@ -24,7 +24,7 @@ struct ContributoRaw: View {
                 Text(item.subtitle)
                     .font(/*@START_MENU_TOKEN@*/.headline/*@END_MENU_TOKEN@*/)
                     .foregroundColor(.gray)
-                Divider()
+               
                 
                 
             }
@@ -34,6 +34,6 @@ struct ContributoRaw: View {
 
 struct ContributoRaw_Previews: PreviewProvider {
     static var previews: some View {
-        ContributoRaw(item: Contributor.swifter[0])
+        ContributorRaw(item: Contributor.swifter[0])
     }
 }

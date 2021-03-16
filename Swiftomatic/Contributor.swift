@@ -13,4 +13,6 @@ struct Contributor : Identifiable  {
     let subtitle : String
     let bio : String
     let contribution : String
+    let imgContrib : String
+    let imgContrib2 : String
 }

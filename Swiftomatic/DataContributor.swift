@@ -8,6 +8,11 @@
 import Foundation
 
 extension Contributor {
-    static let swifter = [ Contributor(name: "John Sundell", image: "sundell", subtitle: "JohneSundell", bio: "swiftbysundell", contribution: "Swiftbysundell - Publish - Podcast - ")
+    static let swifter = [ Contributor(name: "John Sundell", image: "sundell", subtitle: "Developer", bio: "Developer - apps, games and Swift developer tools! Passionate about open source & developer productivity. ", contribution: "Swiftbysundell - Publish - Podcast - ", imgContrib : "swiftbysundell.com", imgContrib2 : "Publish by Sundell"),
+                           Contributor(name: "John Sundell", image: "sundell", subtitle: "Developer", bio: "Developer - apps, games and Swift developer tools! Passionate about open source & developer productivity. ", contribution: "Swiftbysundell - Publish - Podcast - ", imgContrib : "swiftbysundell.com", imgContrib2 : "Publish by Sundell"),
+                           Contributor(name: "John Sundell", image: "sundell", subtitle: "Developer", bio: "Developer - apps, games and Swift developer tools! Passionate about open source & developer productivity. ", contribution: "Swiftbysundell - Publish - Podcast - ", imgContrib : "swiftbysundell.com", imgContrib2 : "Publish by Sundell"),
+                           Contributor(name: "John Sundell", image: "sundell", subtitle: "Developer", bio: "Developer - apps, games and Swift developer tools! Passionate about open source & developer productivity. ", contribution: "Swiftbysundell - Publish - Podcast - ", imgContrib : "swiftbysundell.com", imgContrib2 : "Publish by Sundell"),
+                           Contributor(name: "John Sundell", image: "sundell", subtitle: "Developer", bio: "Developer - apps, games and Swift developer tools! Passionate about open source & developer productivity. ", contribution: "Swiftbysundell - Publish - Podcast - ", imgContrib : "swiftbysundell.com", imgContrib2 : "Publish by Sundell"),
+                      
     ]
 }
