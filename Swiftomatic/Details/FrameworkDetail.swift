@@ -13,13 +13,20 @@ struct FrameworkDetail: View {
     
     var body: some View {
         VStack {
-            
+            Image("\(framework.image)")
+                .resizable()
+                .scaledToFit()
+            Text(framework.name)
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                .bold()
+            Text(framework.descritpion)
+                .multilineTextAlignment(.leading)
         }
     }
 }
 
 struct FrameworkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        FrameworkDetail(framework: Framework(image: "swiftui", descritpion: "Description SwiftUI", status: .read) )
+        FrameworkDetail(framework: Framework(name: "SwiftUI", image: "swiftui", descritpion: "Description SwiftUI Description SwiftUIDescription SwiftUIDescription SwiftUIDescription SwiftUIDescription SwiftUI", status: .read) )
     }
 }
