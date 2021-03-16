@@ -12,7 +12,6 @@ struct Framework: Identifiable {
     var id = UUID()
     var image: String
     var descritpion: String
-    var resume: String
     var status: ReadOrNot
     
 }

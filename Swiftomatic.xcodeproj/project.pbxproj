@@ -13,6 +13,8 @@
 		A9547E892600ECDC007C8423 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9547E882600ECDC007C8423 /* Preview Assets.xcassets */; };
 		A9547E9626010168007C8423 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547E9526010168007C8423 /* Framework.swift */; };
 		A9547E9A260101D4007C8423 /* ReadOrNot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547E99260101D4007C8423 /* ReadOrNot.swift */; };
+		A9547E9D26010311007C8423 /* FrameworkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547E9C26010311007C8423 /* FrameworkDetail.swift */; };
+		A9547EA12601035E007C8423 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547EA02601035E007C8423 /* MyData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A9547E8A2600ECDC007C8423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9547E9526010168007C8423 /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		A9547E99260101D4007C8423 /* ReadOrNot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadOrNot.swift; sourceTree = "<group>"; };
+		A9547E9C26010311007C8423 /* FrameworkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetail.swift; sourceTree = "<group>"; };
+		A9547EA02601035E007C8423 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		A9547E802600ECDB007C8423 /* Swiftomatic */ = {
 			isa = PBXGroup;
 			children = (
+				A9547E9F26010333007C8423 /* Datas */,
 				A9547E9326010114007C8423 /* Rows */,
 				A9547E9426010123007C8423 /* Details */,
 				A9547E9126010101007C8423 /* Models */,
@@ -95,8 +100,17 @@
 		A9547E9426010123007C8423 /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				A9547E9C26010311007C8423 /* FrameworkDetail.swift */,
 			);
 			path = Details;
+			sourceTree = "<group>";
+		};
+		A9547E9F26010333007C8423 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				A9547EA02601035E007C8423 /* MyData.swift */,
+			);
+			name = Datas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +184,8 @@
 			files = (
 				A9547E9A260101D4007C8423 /* ReadOrNot.swift in Sources */,
 				A9547E842600ECDB007C8423 /* ContentView.swift in Sources */,
+				A9547E9D26010311007C8423 /* FrameworkDetail.swift in Sources */,
+				A9547EA12601035E007C8423 /* MyData.swift in Sources */,
 				A9547E9626010168007C8423 /* Framework.swift in Sources */,
 				A9547E822600ECDB007C8423 /* SwiftomaticApp.swift in Sources */,
 			);
