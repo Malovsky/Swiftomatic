@@ -10,23 +10,20 @@ import SwiftUI
 struct ContributoRaw: View {
     let item : Contributor
     var body: some View {
-        HStack(alignment : .bottom) {
+        HStack(alignment : .center) {
             Image(item.image)
                 .resizable()
                 .scaledToFit()
                 .cornerRadius(10.0)
                 .aspectRatio(contentMode: .fit)
-                .frame(maxWidth :140)
+                .frame(maxWidth :109)
             VStack (alignment: .leading, spacing : 10){
                 Text(item.name)
                     .font(/*@START_MENU_TOKEN@*/.title2/*@END_MENU_TOKEN@*/)
                     .fontWeight(.bold)
-                HStack {
-                    Text(item.subtitle)
-                        .font(/*@START_MENU_TOKEN@*/.headline/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(.gray)
-                    
-                }
+                Text(item.subtitle)
+                    .font(/*@START_MENU_TOKEN@*/.headline/*@END_MENU_TOKEN@*/)
+                    .foregroundColor(.gray)
                 Divider()
                 
                 
