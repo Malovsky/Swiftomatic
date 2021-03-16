@@ -16,3 +16,5 @@ struct Framework: Identifiable {
     var status: ReadOrNot
     
 }
+
+

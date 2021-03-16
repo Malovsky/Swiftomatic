@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 var swiftUI = Framework(name: "SwiftUI", image: "swiftui", descritpion: "Description SwiftUI", status: .read)
 var uiKit = Framework(name: "UIKit", image: "uikit", descritpion: "Description UIKit", status: .notRead)
 var mapKit = Framework(name: "MapKit", image: "mapkit", descritpion: "Description mapKit", status: .inProgress)
