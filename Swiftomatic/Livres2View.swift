@@ -9,6 +9,8 @@ import SwiftUI
 
 struct Livres2View: View {
     let book: Book
+    @State var rating = 3
+    
     var body: some View {
         VStack {
             Image(book.image)
@@ -23,6 +25,7 @@ struct Livres2View: View {
             VStack (alignment: .center){
                 Text(book.titre)
                     .font(.headline)
+                RatingView(rating: $rating)
                 Text("Autor:").foregroundColor(.gray)
                 Text(book.auteur).foregroundColor(.blue)
                 Text("Resumé:")
