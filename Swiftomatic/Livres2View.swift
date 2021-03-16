@@ -1,5 +1,5 @@
 //
-//  LivresView.swift
+//  Livres2View.swift
 //  Swiftomatic
 //
 //  Created by Mariia Zhurina on 16/03/2021.
@@ -7,33 +7,33 @@
 
 import SwiftUI
 
-struct LivresView: View {
+struct Livres2View: View {
     let book: Book
-    
     var body: some View {
-        
-        HStack {
+        VStack {
             Image(book.image)
                 .resizable()
                 .scaledToFit()
-                .frame(maxWidth: 100)
+                .frame(maxWidth: 250)
                 .padding()
                 .background(
                     RoundedRectangle(cornerRadius: 15)
                         .fill(Color.gray.opacity(0.15))
                 )
-            VStack (alignment: .leading){
+            VStack (alignment: .center){
                 Text(book.titre)
                     .font(.headline)
                 Text("Autor:").foregroundColor(.gray)
                 Text(book.auteur).foregroundColor(.blue)
+                Text("Resumé:")
+                Text(book.resume)
             }
         }
     }
 }
 
-struct LivresView_Previews: PreviewProvider {
+struct Livres2View_Previews: PreviewProvider {
     static var previews: some View {
-        LivresView(book: Books[1])
+        Livres2View(book: Books[1])
     }
 }

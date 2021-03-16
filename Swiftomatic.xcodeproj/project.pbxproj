@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		22ABEE712600F480006EEEA8 /* LivresModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABEE702600F480006EEEA8 /* LivresModel.swift */; };
 		22ABEEA82600FCBE006EEEA8 /* LivresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABEEA72600FCBE006EEEA8 /* LivresView.swift */; };
+		22ABEEAB2601036A006EEEA8 /* Livres2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABEEAA2601036A006EEEA8 /* Livres2View.swift */; };
+		22ABEEAE2601060B006EEEA8 /* LivresListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22ABEEAD2601060B006EEEA8 /* LivresListView.swift */; };
 		A9547E822600ECDB007C8423 /* SwiftomaticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547E812600ECDB007C8423 /* SwiftomaticApp.swift */; };
 		A9547E842600ECDB007C8423 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547E832600ECDB007C8423 /* ContentView.swift */; };
 		A9547E862600ECDC007C8423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9547E852600ECDC007C8423 /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		22ABEE702600F480006EEEA8 /* LivresModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivresModel.swift; sourceTree = "<group>"; };
 		22ABEEA72600FCBE006EEEA8 /* LivresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivresView.swift; sourceTree = "<group>"; };
+		22ABEEAA2601036A006EEEA8 /* Livres2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livres2View.swift; sourceTree = "<group>"; };
+		22ABEEAD2601060B006EEEA8 /* LivresListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivresListView.swift; sourceTree = "<group>"; };
 		A9547E7E2600ECDB007C8423 /* Swiftomatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftomatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9547E812600ECDB007C8423 /* SwiftomaticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticApp.swift; sourceTree = "<group>"; };
 		A9547E832600ECDB007C8423 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				A9547E812600ECDB007C8423 /* SwiftomaticApp.swift */,
 				A9547E832600ECDB007C8423 /* ContentView.swift */,
 				22ABEEA72600FCBE006EEEA8 /* LivresView.swift */,
+				22ABEEAA2601036A006EEEA8 /* Livres2View.swift */,
+				22ABEEAD2601060B006EEEA8 /* LivresListView.swift */,
 				22ABEE702600F480006EEEA8 /* LivresModel.swift */,
 				A9547E852600ECDC007C8423 /* Assets.xcassets */,
 				A9547E8A2600ECDC007C8423 /* Info.plist */,
@@ -144,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22ABEEAB2601036A006EEEA8 /* Livres2View.swift in Sources */,
+				22ABEEAE2601060B006EEEA8 /* LivresListView.swift in Sources */,
 				A9547E842600ECDB007C8423 /* ContentView.swift in Sources */,
 				A9547E822600ECDB007C8423 /* SwiftomaticApp.swift in Sources */,
 				22ABEE712600F480006EEEA8 /* LivresModel.swift in Sources */,
