@@ -43,6 +43,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22ABEEB42601F865006EEEA8 /* Livres */ = {
+			isa = PBXGroup;
+			children = (
+				22ABEEAA2601036A006EEEA8 /* Livres2View.swift */,
+				22ABEE702600F480006EEEA8 /* LivresModel.swift */,
+				22ABEEB0260108E3006EEEA8 /* RatingView.swift */,
+				22ABEEAD2601060B006EEEA8 /* LivresListView.swift */,
+				22ABEEA72600FCBE006EEEA8 /* LivresView.swift */,
+			);
+			path = Livres;
+			sourceTree = "<group>";
+		};
 		A9547E752600ECDB007C8423 = {
 			isa = PBXGroup;
 			children = (
@@ -62,13 +74,9 @@
 		A9547E802600ECDB007C8423 /* Swiftomatic */ = {
 			isa = PBXGroup;
 			children = (
+				22ABEEB42601F865006EEEA8 /* Livres */,
 				A9547E812600ECDB007C8423 /* SwiftomaticApp.swift */,
 				A9547E832600ECDB007C8423 /* ContentView.swift */,
-				22ABEEA72600FCBE006EEEA8 /* LivresView.swift */,
-				22ABEEAA2601036A006EEEA8 /* Livres2View.swift */,
-				22ABEEAD2601060B006EEEA8 /* LivresListView.swift */,
-				22ABEEB0260108E3006EEEA8 /* RatingView.swift */,
-				22ABEE702600F480006EEEA8 /* LivresModel.swift */,
 				A9547E852600ECDC007C8423 /* Assets.xcassets */,
 				A9547E8A2600ECDC007C8423 /* Info.plist */,
 				A9547E872600ECDC007C8423 /* Preview Content */,
