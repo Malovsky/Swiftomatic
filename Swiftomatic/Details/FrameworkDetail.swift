@@ -21,8 +21,7 @@ struct FrameworkDetail: View {
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 .bold()
             Text(framework.descritpion)
-                .multilineTextAlignment(.leading)
-                .frame(width: 380, height: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .padding(.leading)
             Picker(selection: $pickerSelection, label: Text("Picker"), content: {
                 Text("Lu").tag(ReadOrNot.read)
                 Text("En cours").tag(ReadOrNot.inProgress)
