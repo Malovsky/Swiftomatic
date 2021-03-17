@@ -26,6 +26,9 @@
 		A9547E9A260101D4007C8423 /* ReadOrNot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547E99260101D4007C8423 /* ReadOrNot.swift */; };
 		A9547E9D26010311007C8423 /* FrameworkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547E9C26010311007C8423 /* FrameworkDetail.swift */; };
 		A9547EA12601035E007C8423 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547EA02601035E007C8423 /* MyData.swift */; };
+		F9B07E982601FB17005559BD /* ConferenceDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B07E952601FB17005559BD /* ConferenceDetail.swift */; };
+		F9B07E992601FB17005559BD /* ConferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B07E962601FB17005559BD /* ConferenceView.swift */; };
+		F9B07E9A2601FB17005559BD /* ConferenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B07E972601FB17005559BD /* ConferenceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		A9547E99260101D4007C8423 /* ReadOrNot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadOrNot.swift; sourceTree = "<group>"; };
 		A9547E9C26010311007C8423 /* FrameworkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetail.swift; sourceTree = "<group>"; };
 		A9547EA02601035E007C8423 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		F9B07E952601FB17005559BD /* ConferenceDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceDetail.swift; sourceTree = "<group>"; };
+		F9B07E962601FB17005559BD /* ConferenceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceView.swift; sourceTree = "<group>"; };
+		F9B07E972601FB17005559BD /* ConferenceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,7 @@
 		A9547E802600ECDB007C8423 /* Swiftomatic */ = {
 			isa = PBXGroup;
 			children = (
+				F9B07E942601FB17005559BD /* Conferences */,
 				22ABEEB42601F865006EEEA8 /* Livres */,
 				A9547E9F26010333007C8423 /* Datas */,
 				A9547E9326010114007C8423 /* Rows */,
@@ -160,6 +167,16 @@
 				A9547EA02601035E007C8423 /* MyData.swift */,
 			);
 			name = Datas;
+			sourceTree = "<group>";
+		};
+		F9B07E942601FB17005559BD /* Conferences */ = {
+			isa = PBXGroup;
+			children = (
+				F9B07E952601FB17005559BD /* ConferenceDetail.swift */,
+				F9B07E962601FB17005559BD /* ConferenceView.swift */,
+				F9B07E972601FB17005559BD /* ConferenceModel.swift */,
+			);
+			path = Conferences;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,10 +256,13 @@
 				0590FD6A26010323000D1FC8 /* ContributorDetails.swift in Sources */,
 				A9547E842600ECDB007C8423 /* ContentView.swift in Sources */,
 				A9547E9D26010311007C8423 /* FrameworkDetail.swift in Sources */,
+				F9B07E992601FB17005559BD /* ConferenceView.swift in Sources */,
+				F9B07E9A2601FB17005559BD /* ConferenceModel.swift in Sources */,
 				A9547EA12601035E007C8423 /* MyData.swift in Sources */,
 				A9547E9626010168007C8423 /* Framework.swift in Sources */,
 				22ABEEB62601FA12006EEEA8 /* Contributor.swift in Sources */,
 				22ABEEBC2601FA1D006EEEA8 /* ContributionRaw.swift in Sources */,
+				F9B07E982601FB17005559BD /* ConferenceDetail.swift in Sources */,
 				A9547E822600ECDB007C8423 /* SwiftomaticApp.swift in Sources */,
 				22ABEE712600F480006EEEA8 /* LivresModel.swift in Sources */,
 				22ABEEA82600FCBE006EEEA8 /* LivresView.swift in Sources */,
