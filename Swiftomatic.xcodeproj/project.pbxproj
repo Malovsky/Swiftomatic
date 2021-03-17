@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0590FD67260101C6000D1FC8 /* Contributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590FD66260101C6000D1FC8 /* Contributor.swift */; };
+		0590FD6A26010323000D1FC8 /* ContributorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590FD6926010323000D1FC8 /* ContributorDetails.swift */; };
+		0590FD6D26010338000D1FC8 /* DataContributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590FD6C26010338000D1FC8 /* DataContributor.swift */; };
+		0590FD7026010354000D1FC8 /* ContributorRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590FD6F26010354000D1FC8 /* ContributorRaw.swift */; };
+		0591A70026015A5E0021FB96 /* ContributionRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591A6FF26015A5E0021FB96 /* ContributionRaw.swift */; };
+		0591A70426015FB40021FB96 /* ContributorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591A70326015FB40021FB96 /* ContributorList.swift */; };
 		A9547E822600ECDB007C8423 /* SwiftomaticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547E812600ECDB007C8423 /* SwiftomaticApp.swift */; };
 		A9547E842600ECDB007C8423 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547E832600ECDB007C8423 /* ContentView.swift */; };
 		A9547E862600ECDC007C8423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9547E852600ECDC007C8423 /* Assets.xcassets */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0590FD66260101C6000D1FC8 /* Contributor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contributor.swift; sourceTree = "<group>"; };
+		0590FD6926010323000D1FC8 /* ContributorDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributorDetails.swift; sourceTree = "<group>"; };
+		0590FD6C26010338000D1FC8 /* DataContributor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataContributor.swift; sourceTree = "<group>"; };
+		0590FD6F26010354000D1FC8 /* ContributorRaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributorRaw.swift; sourceTree = "<group>"; };
+		0591A6FF26015A5E0021FB96 /* ContributionRaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionRaw.swift; sourceTree = "<group>"; };
+		0591A70326015FB40021FB96 /* ContributorList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributorList.swift; sourceTree = "<group>"; };
 		A9547E7E2600ECDB007C8423 /* Swiftomatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftomatic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9547E812600ECDB007C8423 /* SwiftomaticApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftomaticApp.swift; sourceTree = "<group>"; };
 		A9547E832600ECDB007C8423 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,9 +78,15 @@
 				A9547E9126010101007C8423 /* Models */,
 				A9547E812600ECDB007C8423 /* SwiftomaticApp.swift */,
 				A9547E832600ECDB007C8423 /* ContentView.swift */,
+				0591A70326015FB40021FB96 /* ContributorList.swift */,
 				A9547E852600ECDC007C8423 /* Assets.xcassets */,
 				A9547E8A2600ECDC007C8423 /* Info.plist */,
 				A9547E872600ECDC007C8423 /* Preview Content */,
+				0590FD66260101C6000D1FC8 /* Contributor.swift */,
+				0590FD6926010323000D1FC8 /* ContributorDetails.swift */,
+				0591A6FF26015A5E0021FB96 /* ContributionRaw.swift */,
+				0590FD6F26010354000D1FC8 /* ContributorRaw.swift */,
+				0590FD6C26010338000D1FC8 /* DataContributor.swift */,
 			);
 			path = Swiftomatic;
 			sourceTree = "<group>";
@@ -183,11 +201,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9547E9A260101D4007C8423 /* ReadOrNot.swift in Sources */,
+				0590FD6A26010323000D1FC8 /* ContributorDetails.swift in Sources */,
 				A9547E842600ECDB007C8423 /* ContentView.swift in Sources */,
 				A9547E9D26010311007C8423 /* FrameworkDetail.swift in Sources */,
 				A9547EA12601035E007C8423 /* MyData.swift in Sources */,
 				A9547E9626010168007C8423 /* Framework.swift in Sources */,
 				A9547E822600ECDB007C8423 /* SwiftomaticApp.swift in Sources */,
+				0591A70426015FB40021FB96 /* ContributorList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
