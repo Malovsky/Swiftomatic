@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftomaticApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LivresListView()
         }
     }
 }
