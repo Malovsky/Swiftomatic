@@ -7,16 +7,22 @@
 
 import SwiftUI
 
+
 struct FrameworkDetail: View {
     
     @State var framework: Framework
     @State var pickerSelection: ReadOrNot = ReadOrNot.notRead
     
     var body: some View {
-        VStack {
+        VStack (spacing: 10){
             Image("\(framework.image)")
                 .resizable()
                 .scaledToFit()
+                .cornerRadius(5.0)
+                .aspectRatio(contentMode: .fit)
+                .frame(maxWidth:370)
+            Divider()
+            ScrollView{
             Text(framework.name)
                 .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                 .bold()

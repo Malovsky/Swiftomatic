@@ -26,6 +26,8 @@
 		A9547E9A260101D4007C8423 /* ReadOrNot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547E99260101D4007C8423 /* ReadOrNot.swift */; };
 		A9547E9D26010311007C8423 /* FrameworkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547E9C26010311007C8423 /* FrameworkDetail.swift */; };
 		A9547EA12601035E007C8423 /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547EA02601035E007C8423 /* MyData.swift */; };
+		D3A71F0626013890009E5C81 /* listRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A71F0526013890009E5C81 /* listRow.swift */; };
+		D3A71F0926014C69009E5C81 /* FrameworkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A71F0826014C69009E5C81 /* FrameworkList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		A9547E99260101D4007C8423 /* ReadOrNot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadOrNot.swift; sourceTree = "<group>"; };
 		A9547E9C26010311007C8423 /* FrameworkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetail.swift; sourceTree = "<group>"; };
 		A9547EA02601035E007C8423 /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		D3A71F0526013890009E5C81 /* listRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listRow.swift; sourceTree = "<group>"; };
+		D3A71F0826014C69009E5C81 /* FrameworkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 		A9547E9326010114007C8423 /* Rows */ = {
 			isa = PBXGroup;
 			children = (
+				D3A71F0526013890009E5C81 /* listRow.swift */,
+				D3A71F0826014C69009E5C81 /* FrameworkList.swift */,
 			);
 			name = Rows;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 				22ABEEB1260108E3006EEEA8 /* RatingView.swift in Sources */,
 				22ABEEAB2601036A006EEEA8 /* Livres2View.swift in Sources */,
 				22ABEEAE2601060B006EEEA8 /* LivresListView.swift in Sources */,
+				D3A71F0926014C69009E5C81 /* FrameworkList.swift in Sources */,
 				A9547E9A260101D4007C8423 /* ReadOrNot.swift in Sources */,
 				22ABEEBA2601FA1B006EEEA8 /* ContributorRaw.swift in Sources */,
 				0590FD6A26010323000D1FC8 /* ContributorDetails.swift in Sources */,
@@ -248,6 +255,7 @@
 				22ABEEA82600FCBE006EEEA8 /* LivresView.swift in Sources */,
 				22ABEEB82601FA17006EEEA8 /* DataContributor.swift in Sources */,
 				0591A70426015FB40021FB96 /* ContributorList.swift in Sources */,
+				D3A71F0626013890009E5C81 /* listRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
