@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0590FD67260101C6000D1FC8 /* Contributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590FD66260101C6000D1FC8 /* Contributor.swift */; };
 		0590FD6A26010323000D1FC8 /* ContributorDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590FD6926010323000D1FC8 /* ContributorDetails.swift */; };
-		0590FD6D26010338000D1FC8 /* DataContributor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590FD6C26010338000D1FC8 /* DataContributor.swift */; };
-		0590FD7026010354000D1FC8 /* ContributorRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0590FD6F26010354000D1FC8 /* ContributorRaw.swift */; };
-		0591A70026015A5E0021FB96 /* ContributionRaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591A6FF26015A5E0021FB96 /* ContributionRaw.swift */; };
 		0591A70426015FB40021FB96 /* ContributorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591A70326015FB40021FB96 /* ContributorList.swift */; };
 		A9547E822600ECDB007C8423 /* SwiftomaticApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547E812600ECDB007C8423 /* SwiftomaticApp.swift */; };
 		A9547E842600ECDB007C8423 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9547E832600ECDB007C8423 /* ContentView.swift */; };
@@ -53,6 +49,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0551BAC12601F816007B1920 /* Contributor */ = {
+			isa = PBXGroup;
+			children = (
+				0591A70326015FB40021FB96 /* ContributorList.swift */,
+				0590FD66260101C6000D1FC8 /* Contributor.swift */,
+				0590FD6926010323000D1FC8 /* ContributorDetails.swift */,
+				0591A6FF26015A5E0021FB96 /* ContributionRaw.swift */,
+				0590FD6F26010354000D1FC8 /* ContributorRaw.swift */,
+				0590FD6C26010338000D1FC8 /* DataContributor.swift */,
+			);
+			path = Contributor;
+			sourceTree = "<group>";
+		};
 		A9547E752600ECDB007C8423 = {
 			isa = PBXGroup;
 			children = (
@@ -78,15 +87,10 @@
 				A9547E9126010101007C8423 /* Models */,
 				A9547E812600ECDB007C8423 /* SwiftomaticApp.swift */,
 				A9547E832600ECDB007C8423 /* ContentView.swift */,
-				0591A70326015FB40021FB96 /* ContributorList.swift */,
+				0551BAC12601F816007B1920 /* Contributor */,
 				A9547E852600ECDC007C8423 /* Assets.xcassets */,
 				A9547E8A2600ECDC007C8423 /* Info.plist */,
 				A9547E872600ECDC007C8423 /* Preview Content */,
-				0590FD66260101C6000D1FC8 /* Contributor.swift */,
-				0590FD6926010323000D1FC8 /* ContributorDetails.swift */,
-				0591A6FF26015A5E0021FB96 /* ContributionRaw.swift */,
-				0590FD6F26010354000D1FC8 /* ContributorRaw.swift */,
-				0590FD6C26010338000D1FC8 /* DataContributor.swift */,
 			);
 			path = Swiftomatic;
 			sourceTree = "<group>";
